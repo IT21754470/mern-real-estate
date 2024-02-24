@@ -5,19 +5,19 @@ const listingSchema=new mongoose.Schema(
     {
         name:{
             type:String,
-            required:true,
+            //required:true,
         },
         description:{
             type:String,
-            required:true,
+           // required:true,
         },
         address:{
             type:String,
-            required:true,
+           // required:true,
         },
         discountPrice:{
             type:Number,
-            required:true,
+         //   required:true,
 
         },
         furnished:{
